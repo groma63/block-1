@@ -524,3 +524,6 @@ button {
     display: block;
   }
 }
+@font-face {
+  font-family: TT Lakes-Bold;
+  src: url(/font/TTLakes-Bold.woff);
