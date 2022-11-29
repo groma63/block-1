@@ -33,6 +33,7 @@ button {
   padding: 0;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .header {
@@ -45,11 +46,16 @@ button {
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .header__inner {
   min-height: 88px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
 }
 
 
@@ -488,7 +494,7 @@ button {
     border-radius: 6px;
   }
 
-  .button-1 {
+  .bt-5 {
     order: -10;
     background-color: transparent;
     border: none;
@@ -524,6 +530,7 @@ button {
     display: block;
   }
 }
+
 @font-face {
   font-family: TT Lakes-Bold;
   src: url(/font/TTLakes-Bold.woff);
